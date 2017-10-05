@@ -1,0 +1,27 @@
+[0m[[0minfo[0m] [0m[32mEnglishTokenizerTests:[0m[0m
+[0m[[0minfo[0m] [0m[32mAn EnglishTokenizer[0m[0m
+[0m[[0minfo[0m] [0m[32m  should respect abbreviations[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when the set of abbreviations is non-empty[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they are followed by a comma[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they are followed by other punctuation[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they are not followed by other punctuation[0m[0m
+[0m[[0minfo[0m] [0m[32m  should not respect abbreviations[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when the set of abbreviations is empty[0m[0m
+[0m[[0minfo[0m] [0m[32m  should handle numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they contain a comma[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they do not contain a comma[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they contain a percentage[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they contain a percentage and end with a decimal[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they contain a decimal[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they contain a comma and a decimal[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they contain a negative[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they contain a generation[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle quotes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle double hyphens[0m[0m
+[0m[[0minfo[0m] [0m[32m  should handle apostrophes[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they are in plurals[0m[0m
+[0m[[0minfo[0m] [0m[32m  should handle paths[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they are absolute unix paths[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they are absolute Windows paths with single backslashes[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when they are absolute Windows paths with double backslashes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle emails[0m[0m
